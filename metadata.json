@@ -1,0 +1,6 @@
+{
+  "name": "Edo Reggae Festival",
+  "description": "The official website for the Edo Reggae Festival in Benin City, celebrating the fusion of Edo culture and reggae music.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
