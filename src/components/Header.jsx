@@ -30,7 +30,7 @@ export default function Header() {
         <div className="flex justify-between items-center">
           {/* Logo Brand */}
           <a href="#" className="flex items-center space-x-2.5 group">
-            <div className="relative w-10 h-10 overflow-hidden flex items-center justify-center bg-transparent shrink-0">
+            <div className="relative w-10 h-10 sm:w-20 sm:h-20 overflow-hidden flex items-center justify-center bg-transparent shrink-0">
               {!logoError ? (
                 <img
                   src={logo}
