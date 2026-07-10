@@ -12,12 +12,12 @@ export const siteData = {
   hashtag: "#OneCultureOneVibesOneShine",
   
   socials: {
-    whatsapp: "https://wa.me/2348000000000",
-    phone: "tel:+2348000000000",
-    instagram: "https://instagram.com/edo_reggae_festival",
-    instagramHandle: "@edo_reggae_festival",
-    email: "mailto:info@edoreggaefestival.com",
-    tiktok: "https://tiktok.com/@edoreggaefestival",
+    whatsapp: "https://wa.me/2348085973497",
+    phone: "tel:+2348114044948",
+    //instagram: "https://instagram.com/edo_reggae_festival",
+    //instagramHandle: "@edo_reggae_festival",
+    email: "mailto:edointernationalreggaefestival@gmail.com",
+    //tiktok: "https://tiktok.com/@edoreggaefestival",
   },
 
   navigation: [
