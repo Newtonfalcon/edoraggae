@@ -249,11 +249,13 @@ export const siteData = {
   contact: {
     title: "Connect With Us",
     subtitle: "Join the Team, Secure a Stand, or Ask Us Anything",
-    phoneDisplay: "+234 800 EDO REGGAE (+234 800 336 7344)",
-    emailDisplay: "contact@edoreggaefestival.com",
+    phoneDisplay: "+234 811 EDO REGGAE (+234 811 404 4948)",
+    emailDisplay: "edointernationalreggaefestival@gmail.com",
     addressDisplay: "Kings Square, Benin City, Edo State, Nigeria.",
+    whatsapp: "https://wa.me/2348085973497",
     hours: "Monday - Friday: 9:00 AM - 6:00 PM | Saturday: 10:00 AM - 3:00 PM"
   },
+ 
 
   tickets: {
     title: "Tickets Available Soon!",
