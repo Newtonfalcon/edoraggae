@@ -33,6 +33,16 @@
 
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: 6.5rem;
+  -webkit-overflow-scrolling: touch;
+}
+
+body {
+  -webkit-overflow-scrolling: touch;
+}
+
+section[id] {
+  scroll-margin-top: 6.5rem;
 }
 
 body {

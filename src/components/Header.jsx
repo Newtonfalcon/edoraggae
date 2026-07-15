@@ -17,6 +17,50 @@ export default function Header() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
+  const handleNavClick = (event, href) => {
+    if (!href || href === "#") {
+      event.preventDefault();
+      setIsOpen(false);
+      window.setTimeout(() => {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+        if (window.history.pushState) {
+          window.history.pushState(null, "", "/");
+        }
+      }, 120);
+      return;
+    }
+
+    const targetId = href.replace("#", "");
+    const target = document.getElementById(targetId);
+
+    if (target) {
+      event.preventDefault();
+      setIsOpen(false);
+
+      const offset = window.innerWidth < 768 ? 96 : 80;
+      const topPosition = target.getBoundingClientRect().top + window.scrollY - offset;
+
+      window.setTimeout(() => {
+        const scrollTarget = Math.max(topPosition, 0);
+
+        window.scrollTo({ top: scrollTarget, behavior: "smooth" });
+        target.scrollIntoView({ behavior: "smooth", block: "start" });
+
+        window.requestAnimationFrame(() => {
+          window.scrollTo({ top: scrollTarget, behavior: "smooth" });
+        });
+
+        if (window.history.pushState) {
+          window.history.pushState(null, "", href);
+        } else {
+          window.location.hash = href;
+        }
+      }, window.innerWidth < 768 ? 220 : 80);
+    } else {
+      setIsOpen(false);
+    }
+  };
+
   return (
     <header
       id="main-header"
@@ -63,6 +107,7 @@ export default function Header() {
               <a
                 key={item.name}
                 href={item.href}
+                onClick={(event) => handleNavClick(event, item.href)}
                 className="font-sans text-[11px] font-bold uppercase tracking-[0.2em] text-[#6b705c] hover:text-[#283618] transition-colors duration-200 relative py-1 after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-[#bc6c25] after:transition-all hover:after:w-full"
               >
                 {item.name}
@@ -70,6 +115,7 @@ export default function Header() {
             ))}
             <a
               href="#tickets"
+              onClick={(event) => handleNavClick(event, "#tickets")}
               className="px-6 py-2.5 rounded-[16px] text-xs font-bold tracking-wider uppercase text-[#fefae0] bg-[#5A5A40] hover:bg-[#283618] transition-all duration-300 shadow-sm hover:scale-105"
             >
               Get Tickets
@@ -106,7 +152,7 @@ export default function Header() {
                 <a
                   key={item.name}
                   href={item.href}
-                  onClick={() => setIsOpen(false)}
+                  onClick={(event) => handleNavClick(event, item.href)}
                   className="block px-3 py-2.5 rounded-lg text-xs font-bold uppercase tracking-wider text-[#6b705c] hover:text-[#283618] hover:bg-[#e9edc9]/30 transition-colors"
                 >
                   {item.name}
@@ -115,7 +161,7 @@ export default function Header() {
               <div className="pt-4 px-3 border-t border-[#e5e1d8]">
                 <a
                   href="#tickets"
-                  onClick={() => setIsOpen(false)}
+                  onClick={(event) => handleNavClick(event, "#tickets")}
                   className="block w-full py-3 rounded-[16px] text-center text-xs font-bold uppercase tracking-wider text-[#fefae0] bg-[#5A5A40] hover:bg-[#283618] transition-colors"
                 >
                   Get Tickets
