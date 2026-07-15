@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from 'react';
 import { Music2, Pause } from 'lucide-react';
+import audioFile from '../assets/music/song.mp3';
 
 export default function BackgroundMusic() {
   const audioRef = useRef(null);
@@ -38,7 +39,7 @@ export default function BackgroundMusic() {
 
   return (
     <div className="fixed bottom-24 right-5 z-[1000] sm:bottom-24">
-      <audio ref={audioRef} loop muted src="/src/assets/music/song.mp3" />
+      <audio ref={audioRef} loop muted src={audioFile} />
 
       <button
         type="button"
