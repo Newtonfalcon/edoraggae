@@ -61,6 +61,14 @@ export default function Contact() {
                   >
                     {siteData.contact.phoneDisplay}
                   </a>
+
+
+                   <a
+                    href={siteData.socials.phone2}
+                    className="text-sm text-[#283618] hover:text-[#bc6c25] transition-colors block mt-1 font-bold"
+                  >
+                    +12144699062
+                  </a>
                 </div>
               </div>
 

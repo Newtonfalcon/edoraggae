@@ -14,6 +14,7 @@ export const siteData = {
   socials: {
     whatsapp: "https://wa.me/2348085973497",
     phone: "tel:+2348114044948",
+    phone2: "tel:+12144699062",
     //instagram: "https://instagram.com/edo_reggae_festival",
     //instagramHandle: "@edo_reggae_festival",
     email: "mailto:edointernationalreggaefestival@gmail.com",
@@ -22,6 +23,7 @@ export const siteData = {
 
   navigation: [
     { name: "About", href: "#about" },
+    { name: "What We Do", href: "#what-we-do" },
     { name: "Lineup", href: "#lineup" },
     { name: "Experience", href: "#experience" },
     { name: "Gallery", href: "#gallery" },
@@ -59,6 +61,33 @@ export const siteData = {
     ceoImage: "/src/assets/images/theceo.png",
     ceoQuote: "Reggae is more than music; it is a movement of the heart. By uniting the ancient stories of the Edo people with the global rhythm of reggae, we are crafting a new legacy of cultural tourism, youth empowerment, and pure joy.",
     ceoMessage: "Welcome to a space of respect, unity, and rich heritage. At the Edo Reggae Festival, we invite everyone to experience our hospitality, feel the vibrations of the bass, and join us in chanting songs of freedom, peace, and togetherness.",
+  },
+
+  whatWeDo: {
+    title: "What We Do",
+    subtitle: "Beyond the festival stage, we are a full-service home for reggae culture and the artists who carry it.",
+    services: [
+      {
+        icon: "Megaphone",
+        title: "Promotion",
+        description: "We promote reggae music, artists, and events across Edo State and beyond, connecting talent with the audiences and stages they deserve.",
+      },
+      {
+        icon: "Users",
+        title: "Artist Management",
+        description: "We manage established artists' bookings, brand, and careers, handling the business side so they can focus on the music.",
+      },
+      {
+        icon: "Rocket",
+        title: "Upcoming Artist Development",
+        description: "We discover, mentor, and manage upcoming artists, giving fresh talent a platform, structure, and pathway to the main stage.",
+      },
+      {
+        icon: "Disc3",
+        title: "Music Production",
+        description: "We produce original reggae music, from studio sessions to final mix, helping our artists create records that carry the culture forward.",
+      },
+    ],
   },
 
   lineup: {
