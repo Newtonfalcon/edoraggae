@@ -196,26 +196,12 @@ export const siteData = {
       {
         name: "Grand Patrons",
         logos: [
-          { name: "Edo State Tourism Board", type: "government" },
-          { name: "Ministry of Arts, Culture & Diaspora Affairs", type: "government" }
+          { name: "Edo State Government", type: "government" },
+          { name: "Ministry Diaspora Affairs", type: "government" }
         ]
       },
-      {
-        name: "Official Sponsors",
-        logos: [
-          { name: "Benin Heritage Brewery", type: "corporate" },
-          { name: "One Love Telecommunications", type: "corporate" },
-          { name: "Wazobia Sound FM", type: "media" },
-          { name: "Kings Square Hospitality Group", type: "hospitality" }
-        ]
-      },
-      {
-        name: "Community Partners",
-        logos: [
-          { name: "Benin Bronze Guild", type: "cultural" },
-          { name: "Edo Music Association", type: "association" }
-        ]
-      }
+      
+     
     ]
   },
 

@@ -219,7 +219,7 @@ export default function Lineup() {
             Share the excitement on socials
           </span>
           <a
-            href="https://instagram.com/edo_reggae_festival"
+            href={siteData.socials.whatsapp}
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block font-display font-black text-2xl sm:text-4xl text-[#58111a] hover:text-[#bc6c25] transition-colors duration-300 italic tracking-tight"

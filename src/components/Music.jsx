@@ -37,7 +37,7 @@ export default function BackgroundMusic() {
   };
 
   return (
-    <div className="fixed bottom-5 right-5 z-[1000]">
+    <div className="fixed bottom-24 right-5 z-[1000] sm:bottom-24">
       <audio ref={audioRef} loop muted src="/src/assets/music/song.mp3" />
 
       <button

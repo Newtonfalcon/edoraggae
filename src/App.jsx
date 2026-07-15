@@ -10,6 +10,7 @@ import Partners from "./sections/Partners";
 import Faq from "./sections/Faq";
 import Contact from "./sections/Contact";
 import Footer from "./components/Footer";
+import WhatsAppButton from "./components/WhatsAppButton";
 
 export default function App() {
   useEffect(() => {
@@ -54,6 +55,9 @@ export default function App() {
 
       {/* Corporate & Cultural Footer */}
       <Footer />
+
+      {/* Floating WhatsApp Chat Button */}
+      <WhatsAppButton />
     </div>
   );
 }
