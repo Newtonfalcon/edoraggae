@@ -6,7 +6,7 @@ import BackgroundMusic from "../components/Music";
 
 const slides = [
   {
-    image: "/src/assets/images/reggae_hero_banner_1782844474123.jpg",
+    image: "/images/reggae_hero_banner_1782844474123.jpg",
     fallback: "https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?auto=format&fit=crop&w=1600&q=80",
     tagline: "One Culture! One Vibes!! One Shine!!!",
     title: "EDO International",
@@ -15,7 +15,7 @@ const slides = [
     colorAccent: "#58111a"
   },
   {
-    image: "/src/assets/images/cultural_fusion_1782844520544.jpg",
+    image: "/images/cultural_fusion_1782844520544.jpg",
     fallback: "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?auto=format&fit=crop&w=1600&q=80",
     tagline: "#OneCultureOneVibesOneShine",
     title: "Kings Square",
@@ -24,7 +24,7 @@ const slides = [
     colorAccent: "#bc6c25"
   },
   {
-    image: "/src/assets/images/live_performance_1782844506404.jpg",
+    image: "/images/live_performance_1782844506404.jpg",
     fallback: "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?auto=format&fit=crop&w=1600&q=80",
     tagline: "Confirmed Headliner: May Shua",
     title: "Live Roots Reggae",

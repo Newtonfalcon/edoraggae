@@ -48,7 +48,7 @@ export const siteData = {
     venue: "Kings Square, Benin City, Edo State, Nigeria",
     ctaPrimary: "Join Ticket Waiting List",
     ctaSecondary: "Explore Lineup",
-    bgImage: "/src/assets/images/reggae_hero_banner_1782844474123.jpg",
+    bgImage: "/images/reggae_hero_banner_1782844474123.jpg",
   },
 
   about: {
@@ -58,7 +58,7 @@ export const siteData = {
     historyText1: "The EDO International Reggae Festival is a premier cultural and musical beacon designed to celebrate the timeless, unifying message of reggae music—peace, love, and liberation—and seamlessly fuse it with the magnificent, centuries-old heritage of the Edo Kingdom. Staged in the historic Kings Square in Benin City, the festival stands as an epic milestone of tourism, roots music, and community expression.",
     historyText2: "With our motto 'One Culture! One Vibes!! One Shine!!!' leading the movement, we celebrate together as one people, providing an unmatched platform for historic legends, featured stars, and local vendors to connect with a global audience of peace lovers.",
     
-    ceoImage: "/src/assets/images/theceo.png",
+    ceoImage: "/images/theceo.png",
     ceoQuote: "Reggae is more than music; it is a movement of the heart. By uniting the ancient stories of the Edo people with the global rhythm of reggae, we are crafting a new legacy of cultural tourism, youth empowerment, and pure joy.",
     ceoMessage: "Welcome to a space of respect, unity, and rich heritage. At the Edo Reggae Festival, we invite everyone to experience our hospitality, feel the vibrations of the bass, and join us in chanting songs of freedom, peace, and togetherness.",
   },
@@ -96,7 +96,7 @@ export const siteData = {
     confirmedHeadliner: {
       name: "May Shua",
       role: "Confirmed Headliner",
-      image: "/src/assets/images/mayshua.png",
+      image: "/images/mayshua.png",
       description: "The sensational afro-reggae firebrand bringing high-octane vibes, unmatched groove, and cultural pride to the main stage."
     },
     legends: [
@@ -155,14 +155,14 @@ export const siteData = {
         title: "Live Reggae Concerts",
         description: "Enjoy electric performances from top international reggae icons, roots reggae veterans, and Nigeria's brightest rising stars. Feel the thunderous dub, sweet rocksteady, and energetic dancehall.",
         icon: "Music",
-        image: "/src/assets/images/live_performance_1782844506404.jpg"
+        image: "/images/live_performance_1782844506404.jpg"
       },
       {
         id: "exp-culture",
         title: "Edo Cultural Showcase",
         description: "Marvel at the vibrant Benin traditional dances, dramatic theatrical reenactments, spectacular coral-beaded royal costuming, and historical storytelling that honors the Oba of Benin's rich heritage.",
         icon: "Compass",
-        image: "/src/assets/images/cultural_fusion_1782844520544.jpg"
+        image: "/images/cultural_fusion_1782844520544.jpg"
       },
       {
         id: "exp-art",
@@ -186,22 +186,22 @@ export const siteData = {
     subtitle: "Captured Moments of Love, Rhythm, and Splendor",
     images: [
       {
-        src: "/src/assets/images/reggae_hero_banner_1782844474123.jpg",
+        src: "/images/reggae_hero_banner_1782844474123.jpg",
         caption: "Main Stage Concert Vibrations",
         category: "Music"
       },
       {
-        src: "/src/assets/images/theceo.png",
+        src: "/images/theceo.png",
         caption: "Founder Dqueen Adesuwa Welcome Address",
         category: "People"
       },
       {
-        src: "/src/assets/images/live_performance_1782844506404.jpg",
+        src: "/images/live_performance_1782844506404.jpg",
         caption: "Roots Reggae Band Live Performance",
         category: "Music"
       },
       {
-        src: "/src/assets/images/cultural_fusion_1782844520544.jpg",
+        src: "/images/cultural_fusion_1782844520544.jpg",
         caption: "Edo Royal Dancers and Coral Bead Display",
         category: "Culture"
       },
