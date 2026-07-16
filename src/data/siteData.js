@@ -94,10 +94,10 @@ export const siteData = {
     title: "The Official Lineup",
     subtitle: "Witness Historic Reggae Icons and Phenomenal Future Talent Live at Kings Square",
     confirmedHeadliner: {
-      name: "May Shua",
-      role: "Confirmed Headliner",
-      image: "/images/mayshua.png",
-      description: "The sensational afro-reggae firebrand bringing high-octane vibes, unmatched groove, and cultural pride to the main stage."
+      name: "Ciderr",
+      role: "Confirmed Artist",
+      image: "/images/ciderr.jpeg",
+      description: "The mesmerizing Afro-soul and R&B visionary bringing deep, infectious grooves, raw emotion, and cultural identity to the main stage."
     },
     legends: [
       "Orits Wiliki",
